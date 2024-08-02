@@ -345,7 +345,7 @@ p {
 /* ATTRIBUTION */
 
 .attribution {
-  position: fixed;
+  position: bottom;
   bottom: 0;
   border-top-right-radius: 0.8rem;
   border-top-left-radius: 0.8rem;
@@ -356,12 +356,11 @@ p {
 }
 
 .attribution__link {
-  color: hsl(var(--clr-dark-cyan));
-  text-decoration: none;
+  color: hsl(var(--clr-dark-blue));
 }
 
 .attribution__link:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 /* MEDIA QUERIES */
@@ -466,6 +465,10 @@ p {
 
   .footer {
     padding-bottom: 12.178rem;
+  }
+
+  .attribution {
+    display: none;
   }
 }
 
